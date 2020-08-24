@@ -1,0 +1,102 @@
+	body {
+			background: #666;
+			color: white;
+			font-family: Helvetica, arial;
+			padding: 0;
+			margin: 0;
+
+		}
+		header {
+			background-color: black;
+			background-image: url('Images/025625b92764f90.jpg');
+			background-size: 100%;
+			background-position: center;
+			padding: 20px;
+			height: 100px;
+			text-align: center;
+			}
+		header a {
+			color: white;
+			text-decoration: none;
+			margin-top: 40px;
+			
+		}
+		a {
+			text-decoration: none;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+		section {
+			background: white;
+			color: gray;
+			padding: 20px;
+			display: flex;
+			flex-direction: row;
+
+		}
+	
+
+		div {
+			background: pink;
+			width: 100%;
+			margin: auto;
+		}
+
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+
+		}
+
+		li {
+			display: inline-block;
+			margin-right: 20px;
+		}
+		footer {
+			background: black;
+			padding: 10px 20px;
+		}
+		header .logo a {
+			background-image: url('Images/images\ \(3\).jpeg');
+			background-size: 300px;
+			background-repeat: no-repeat;
+			display: inline-block;
+			position: relative;
+			width: 300px;
+			height: 80px;
+			text-indent: -9999999999999px;
+			top: -30px;
+			width: 300px;
+			 
+
+		}
+
+	.features {
+		background: white;
+		height: 200px;
+		width: auto;
+		position: relative;
+		flex-direction: row;
+		
+	}
+	.features figure {
+		margin: auto;
+		width: 100px;
+		text-align: center;
+	
+	}
+.features figure img  {
+	width: auto;
+	border-radius: 50%;
+	box-shadow: gray 10px 10px 10px;
+}
+
+figcaption {
+	text-align: center;
+	margin: 2px;
+	padding: 2px;
+}
+
+}
